@@ -1,0 +1,13 @@
+# next / node
+node_modules/
+.next/
+.env*
+# logs
+npm-debug.log*
+pnpm-debug.log*
+# editor
+.vscode/
+.DS_Store
+
+# build output
+out/
