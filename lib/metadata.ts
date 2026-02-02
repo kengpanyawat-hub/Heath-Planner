@@ -3,17 +3,17 @@ import type { Metadata } from "next";
 
 /* ------------------------ Site-wide config ------------------------ */
 export const siteConfig = {
-  siteName: "Heath Planner",
+  siteName: "Health Planner",
   brand: "อลิอันซ์ อยุธยา",
-  domain: "https://www.heathplanner.com",
+  domain: "https://www.healthplanner.com",
   locale: "th_TH",
-  twitter: "@heathplanner",
+  twitter: "@healthplanner",
   logo: "/logo.png",
   defaultOg: "/og/default.jpg", // 1200x630
   contact: {
     phone: "+66-81-578-9955",
     lineId: "panachat.limp",
-    email: "support@heathplanner.com",
+    email: "support@healthplanner.com",
   },
   person: {
     name: "ปาณฉัตร ลิ้มประสิทธิ์กุลี",
@@ -23,7 +23,7 @@ export const siteConfig = {
     page: "/agent",
   },
   social: {
-    facebook: "https://www.facebook.com/heathplanner",
+    facebook: "https://www.facebook.com/healthplanner",
     line: "https://line.me/ti/p/~panachat.limp",
   },
 };
@@ -82,7 +82,7 @@ export const seo = {
   home: buildMeta({
     title: "วางแผนประกันชีวิต สุขภาพ ออม บำนาญ และภาษี",
     description:
-      "Heath Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
+      "Health Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
     path: "/",
     image: "/og/og.jpg",
     keywords: [
@@ -93,19 +93,19 @@ export const seo = {
       "ลดหย่อนภาษี",
       "ที่ปรึกษาประกัน",
       "อลิอันซ์ อยุธยา",
-      "Heath Planner",
+      "Health Planner",
     ],
   }),
 
   products: buildMeta({
     title: "สมัครเป็นตัวแทนประกันชีวิต (อลิอันซ์ อยุธยา)",
     description:
-      "Heath Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
+      "Health Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
     path: "/products",
     image: "/og/og.jpg",
     keywords: [
 	  "สมัครตัวแทนประกันชีวิต",
-      "Heath Planner",
+      "Health Planner",
       "อลิอันซ์ อยุธยา",
       "รายได้ตัวแทน",
       "แบบประกัน",
@@ -138,21 +138,21 @@ export const seo = {
   contact: buildMeta({
     title: "ติดต่อเรา",
     description:
-      "ติดต่อ Heath Planner เพื่อปรึกษาแผนประกันชีวิต สุขภาพ ออม บำนาญ และประกันกลุ่ม โทร 081-578-9955 หรือ Line: panachat.limp",
+      "ติดต่อ Health Planner เพื่อปรึกษาแผนประกันชีวิต สุขภาพ ออม บำนาญ และประกันกลุ่ม โทร 081-578-9955 หรือ Line: panachat.limp",
     path: "/contact",
     image: "/og/og.jpg",
-    keywords: ["ติดต่อประกัน", "ที่ปรึกษาประกัน", "Heath Planner", "อลิอันซ์ อยุธยา"],
+    keywords: ["ติดต่อประกัน", "ที่ปรึกษาประกัน", "Health Planner", "อลิอันซ์ อยุธยา"],
   }),
 
   agent: buildMeta({
     title: "สมัครเป็นตัวแทนประกันชีวิต (อลิอันซ์ อยุธยา)",
     description:
-      "สมัครเป็นตัวแทนประกันชีวิตกับ Heath Planner สร้างรายได้มั่นคง พร้อมทีมพี่เลี้ยงคุณปาณฉัตร สอนครบเรื่องประกันชีวิต สุขภาพ ออม บำนาญ และภาษี Line: panachat.limp โทร 081-578-9955",
+      "สมัครเป็นตัวแทนประกันชีวิตกับ Health Planner สร้างรายได้มั่นคง พร้อมทีมพี่เลี้ยงคุณปาณฉัตร สอนครบเรื่องประกันชีวิต สุขภาพ ออม บำนาญ และภาษี Line: panachat.limp โทร 081-578-9955",
     path: "/agent",
     image: "/og/og.jpg",
     keywords: [
       "สมัครตัวแทนประกันชีวิต",
-      "Heath Planner",
+      "Health Planner",
       "อลิอันซ์ อยุธยา",
       "รายได้ตัวแทน",
       "ทีมพี่เอ๊ะ ปาณฉัตร",
@@ -162,7 +162,7 @@ export const seo = {
   privacy: buildMeta({
     title: "นโยบายความเป็นส่วนตัว (Privacy Policy)",
     description:
-      "นโยบายความเป็นส่วนตัวของ Heath Planner อธิบายการเก็บ ใช้ เปิดเผย และปกป้องข้อมูลส่วนบุคคล ตามกฎหมาย PDPA",
+      "นโยบายความเป็นส่วนตัวของ Health Planner อธิบายการเก็บ ใช้ เปิดเผย และปกป้องข้อมูลส่วนบุคคล ตามกฎหมาย PDPA",
     path: "/privacy",
     image: "/og/og.jpg",
     keywords: ["นโยบายความเป็นส่วนตัว", "PDPA", "Privacy Policy"],
@@ -171,7 +171,7 @@ export const seo = {
   terms: buildMeta({
     title: "ข้อกำหนดการใช้งาน (Terms of Service)",
     description:
-      "ข้อกำหนดและเงื่อนไขการใช้งานเว็บไซต์ Heath Planner เพื่อความปลอดภัยและประสบการณ์ที่ดีของผู้ใช้",
+      "ข้อกำหนดและเงื่อนไขการใช้งานเว็บไซต์ Health Planner เพื่อความปลอดภัยและประสบการณ์ที่ดีของผู้ใช้",
     path: "/terms",
     image: "/og/og.jpg",
     keywords: ["ข้อกำหนดการใช้งาน", "Terms of Service"],
@@ -180,7 +180,7 @@ export const seo = {
   sitemap: buildMeta({
     title: "แผนผังเว็บไซต์ (Sitemap)",
     description:
-      "แผนผังเว็บไซต์ Heath Planner รวมลิงก์สำคัญทุกหน้าเพื่อให้ค้นหาข้อมูลได้ง่ายและรวดเร็ว",
+      "แผนผังเว็บไซต์ Health Planner รวมลิงก์สำคัญทุกหน้าเพื่อให้ค้นหาข้อมูลได้ง่ายและรวดเร็ว",
     path: "/sitemap",
     image: "/og/og.jpg",
     keywords: ["Sitemap", "แผนผังเว็บไซต์"],
@@ -189,10 +189,10 @@ export const seo = {
   about: buildMeta({
     title: "เกี่ยวกับเรา",
     description:
-      "รู้จัก Heath Planner ทีมที่ปรึกษาทางการเงินและประกันจาก อลิอันซ์ อยุธยา มุ่งมั่นให้คำปรึกษาที่ซื่อสัตย์ โปร่งใส และได้ผลลัพธ์จริง",
+      "รู้จัก Health Planner ทีมที่ปรึกษาทางการเงินและประกันจาก อลิอันซ์ อยุธยา มุ่งมั่นให้คำปรึกษาที่ซื่อสัตย์ โปร่งใส และได้ผลลัพธ์จริง",
     path: "/about",
     image: "/og/og.jpg",
-    keywords: ["เกี่ยวกับ Heath Planner", "ทีมตัวแทนประกัน", "อลิอันซ์ อยุธยา"],
+    keywords: ["เกี่ยวกับ Health Planner", "ทีมตัวแทนประกัน", "อลิอันซ์ อยุธยา"],
   }),
 };
 
