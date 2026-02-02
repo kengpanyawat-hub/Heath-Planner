@@ -2,9 +2,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ข้อกำหนดการใช้งาน | Heath Planner",
+  title: "ข้อกำหนดการใช้งาน | Health Planner",
   description:
-    "ข้อกำหนดและเงื่อนไขในการใช้งานเว็บไซต์ Heath Planner เพื่อให้การใช้บริการเป็นไปอย่างถูกต้องและปลอดภัย",
+    "ข้อกำหนดและเงื่อนไขในการใช้งานเว็บไซต์ Health Planner เพื่อให้การใช้บริการเป็นไปอย่างถูกต้องและปลอดภัย",
 };
 
 export default function TermsPage() {
@@ -15,7 +15,7 @@ export default function TermsPage() {
       </h1>
 
       <p className="mb-4">
-        เว็บไซต์ Heath Planner (“เว็บไซต์”) ถูกจัดทำขึ้นเพื่อให้ข้อมูลด้านการประกันและบริการต่าง ๆ
+        เว็บไซต์ Health Planner (“เว็บไซต์”) ถูกจัดทำขึ้นเพื่อให้ข้อมูลด้านการประกันและบริการต่าง ๆ
         การเข้าถึงและใช้งานเว็บไซต์นี้ถือว่าผู้ใช้ได้ยอมรับข้อกำหนดและเงื่อนไขเหล่านี้แล้ว
       </p>
 
@@ -43,7 +43,7 @@ export default function TermsPage() {
       </h2>
       <p className="mb-3">
         ข้อมูลทั้งหมดในเว็บไซต์นี้ รวมถึงข้อความ รูปภาพ โลโก้
-        และเนื้อหาอื่น ๆ เป็นทรัพย์สินของ Heath Planner
+        และเนื้อหาอื่น ๆ เป็นทรัพย์สินของ Health Planner
         ห้ามทำซ้ำหรือดัดแปลงโดยไม่ได้รับอนุญาต
       </p>
 
@@ -51,13 +51,13 @@ export default function TermsPage() {
         4. การจำกัดความรับผิดชอบ
       </h2>
       <p className="mb-3">
-        Heath Planner ไม่รับผิดชอบต่อความเสียหายที่อาจเกิดขึ้นจากการใช้งานเว็บไซต์
+      Health Planner ไม่รับผิดชอบต่อความเสียหายที่อาจเกิดขึ้นจากการใช้งานเว็บไซต์
         รวมถึงข้อมูลที่ผู้ใช้ส่งผ่านหรือได้รับจากเว็บไซต์นี้
       </p>
 
       <p className="mt-6">
         หากมีคำถามเพิ่มเติมเกี่ยวกับข้อกำหนดนี้ กรุณาติดต่อ{" "}
-        <strong>legal@heathplanner.com</strong>
+        <strong>legal@Healthplanner.com</strong>
       </p>
     </main>
   );

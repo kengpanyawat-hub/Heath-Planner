@@ -31,7 +31,7 @@ export default function ProductsPage() {
         แบบประกันทั้งหมด
       </h1>
       <p className="mt-2 text-center text-gray-600">
-        กรองตามหมวดหมู่เพื่อค้นหาแผนที่ใช่ — ดูรายละเอียดและขอคำปรึกษากับทีม Heath Planner
+        กรองตามหมวดหมู่เพื่อค้นหาแผนที่ใช่ — ดูรายละเอียดและขอคำปรึกษากับทีม Health Planner
       </p>
 
       {/* ส่วนกรอง/กริด — ทำงานเฉพาะฝั่ง client */}

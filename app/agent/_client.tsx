@@ -21,7 +21,7 @@ export default function AgentClient() {
               <div className="relative h-[420px] md:h-[520px]">
                 <Image
                   src="/images/agent-hero.png"
-                  alt="สมัครตัวแทน Heath Planner"
+                  alt="สมัครตัวแทน Health Planner"
                   fill
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-contain object-bottom"
@@ -33,7 +33,7 @@ export default function AgentClient() {
             {/* ฟอร์ม */}
             <div className="order-1 md:order-2">
               <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-[#325BBA]">
-                สมัครเป็นตัวแทน Heath Planner
+                สมัครเป็นตัวแทน Health Planner
               </h1>
               <p className="mt-3 text-gray-600 leading-relaxed">
                 เข้าร่วมทีมที่ปรึกษาทางการเงินมืออาชีพ พร้อมโอกาสเติบโตในสายงานที่มั่นคง
@@ -55,7 +55,7 @@ export default function AgentClient() {
 
                   <label className="grid gap-2">
                     <span className="text-sm text-gray-700">LINE ID</span>
-                    <Input placeholder="เช่น @heathplanner" />
+                    <Input placeholder="เช่น @Healthplanner" />
                   </label>
 
                   <label className="grid gap-2">
@@ -99,12 +99,12 @@ export default function AgentClient() {
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/rdNMF1bbkdc"
-              title="DragonSheild Overview"
+              title="Health Planner Overview"
               allowFullScreen
             />
           </div>
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold text-[#325BBA]">DragonSheild TEAM</h3>
+            <h3 className="text-2xl md:text-3xl font-bold text-[#325BBA]">Health Planner TEAM</h3>
             <p className="mt-3 text-gray-700 leading-relaxed">
               เราคือทีมที่ปรึกษาทางการเงินและตัวแทนคุณภาพ ผสานความเชี่ยวชาญด้านการวางแผน
               ความเข้าใจลูกค้า และเครื่องมือดิจิทัล เพื่อบริการที่ครบถ้วน รวดเร็ว และจริงใจ
@@ -123,9 +123,10 @@ export default function AgentClient() {
           </div>
 
           <div className="grid gap-8 md:gap-10">
-            <Figure src="/images/structure1.png" alt="โครงสร้างทีมงาน" />
-            <Figure src="/images/structure2.png" alt="โครงสร้างผลประโยชน์ผู้บริหารตัวแทน" />
-            <Figure src="/images/structure3.png" alt="โครงสร้างผลประโยชน์ตัวแทน" />
+            <Figure src="/images/structure01.jpg" alt="โครงสร้างทีมงาน" />
+            <Figure src="/images/structure02.jpg" alt="โครงสร้างผลประโยชน์ผู้บริหารตัวแทน" />
+            <Figure src="/images/structure03.jpg" alt="โครงสร้างผลประโยชน์ตัวแทน" />
+            <Figure src="/images/structure04.jpg" alt="โครงสร้างผลประโยชน์ตัวแทน" />
           </div>
         </div>
       </section>

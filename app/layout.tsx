@@ -12,19 +12,19 @@ const font = Prompt({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.heathplanner.com/"),
+  metadataBase: new URL("https://www.healthplanner.com/"),
   title: {
-    default: "Heath Planner — วางแผนประกันชีวิต สุขภาพ อุบัติเหตุ และกลุ่ม",
-    template: "%s | HeathPlanner",
+    default: "Health Planner — วางแผนประกันชีวิต สุขภาพ อุบัติเหตุ และกลุ่ม",
+    template: "%s | HealthPlanner",
   },
   description:
-    "Heath Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
+    "Health Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Heath Planner",
-    description: "Heath Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
-    url: "https://www.heathplanner.com/",
-    siteName: "HeathPlanner",
+    title: "Health Planner",
+    description: "Health Planner ที่ปรึกษาประกันชีวิตและการเงิน ช่วยออกแบบความคุ้มครองสุขภาพ ออมระยะยาว บำนาญ และวางแผนลดหย่อนภาษีสำหรับบุคคล/นิติบุคคล โดยทีมมืออาชีพจากอลิอันซ์ อยุธยา",
+    url: "https://www.healthplanner.com/",
+    siteName: "HealthPlanner",
     images: [{ url: "/logo.svg" }],
     locale: "th_TH",
     type: "website",

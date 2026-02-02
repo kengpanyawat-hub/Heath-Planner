@@ -14,11 +14,11 @@ export async function generateMetadata({ params }: Props) {
   const p = getProductByIdOrSlug(params.id);
   if (!p) return {};
   return {
-    title: p.seoTitle ?? `${p.name} | Heath Planner`,
+    title: p.seoTitle ?? `${p.name} | Health Planner`,
     description:
       p.seoDescription ??
       p.summary ??
-      `รายละเอียดแผน ${p.name} โดย Heath Planner ตัวแทนประกัน`,
+      `รายละเอียดแผน ${p.name} โดย Health Planner ตัวแทนประกัน`,
   };
 }
 

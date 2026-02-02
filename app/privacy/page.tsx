@@ -2,9 +2,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "นโยบายความเป็นส่วนตัว | Heath Planner",
+  title: "นโยบายความเป็นส่วนตัว | Health Planner",
   description:
-    "นโยบายความเป็นส่วนตัวของ Heath Planner เกี่ยวกับการเก็บรักษา การใช้ และการปกป้องข้อมูลส่วนบุคคลของผู้ใช้บริการ",
+    "นโยบายความเป็นส่วนตัวของ Health Planner เกี่ยวกับการเก็บรักษา การใช้ และการปกป้องข้อมูลส่วนบุคคลของผู้ใช้บริการ",
 };
 
 export default function PrivacyPage() {
@@ -14,7 +14,7 @@ export default function PrivacyPage() {
         นโยบายความเป็นส่วนตัว (Privacy Policy)
       </h1>
       <p className="mb-4">
-        Heath Planner ให้ความสำคัญกับความเป็นส่วนตัวของผู้ใช้งานทุกท่าน
+        Health Planner ให้ความสำคัญกับความเป็นส่วนตัวของผู้ใช้งานทุกท่าน
         เรามุ่งมั่นที่จะรักษาความปลอดภัยของข้อมูลส่วนบุคคลของคุณ
         และใช้ข้อมูลนั้นอย่างโปร่งใสภายใต้กฎหมายคุ้มครองข้อมูลส่วนบุคคล (PDPA)
       </p>
@@ -64,7 +64,7 @@ export default function PrivacyPage() {
 
       <p className="mt-6">
         หากมีข้อสงสัยเกี่ยวกับนโยบายนี้ สามารถติดต่อได้ที่{" "}
-        <strong>support@heathplanner.com</strong>
+        <strong>support@healthplanner.com</strong>
       </p>
     </main>
   );

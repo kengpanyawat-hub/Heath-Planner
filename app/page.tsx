@@ -11,6 +11,7 @@ import HomePopular from "@/components/HomePopular";
 import AgentBenefits from "@/components/AgentBenefits";
 import HomeFAQ from "@/components/HomeFAQ";
 import HomeStrengths from "@/components/HomeStrengths";
+import HomeSteps from "@/components/HomeSteps";
 import CTA from "@/components/CTA";
 import LeaderHighlight from "@/components/LeaderHighlight";
 import { seo } from "@/lib/metadata";
@@ -46,6 +47,7 @@ export default function Page() {
       </section>
 	  
 	  <HomeStrengths />
+    <HomeSteps />
 
       {/* แถบติดต่อ */}
       <div className="py-6">

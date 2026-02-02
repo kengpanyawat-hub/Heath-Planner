@@ -72,13 +72,13 @@ export default function LeaderHighlight() {
           </h3>
           <ul className="mt-2 text-gray-700 list-disc pl-5 space-y-1">
             <li>คุณวุฒิ MDRT (Million Dollar Round Table)</li>
-            <li>คุณวุฒิวิชาชีพ FChFP (Fellow Chartered Financial Practitioner)</li>
+            
             <li>รางวัลยอดขายและการบริหารทีมระดับองค์กรหลายสมัย</li>
           </ul>
 
           <div className="center mt-5 flex flex-wrap items-center gap-6">
             <Logo src="/images/logos/mdrt.avif" alt="MDRT" w={84} h={60} />
-            <Logo src="/images/logos/logo Fchfp.avif" alt="FChFP" w={100} h={52} />
+            
             <Logo src="/images/logos/tnqa.avif" alt="TNOA" w={110} h={50} />
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function LeaderHighlight() {
               "@type": "Person",
               name: "ปาณฉัตร ลิ้มประสิทธิศักดิ์",
               jobTitle: "ระดับ APFinSA Award",
-              worksFor: { "@type": "Organization", name: "Heath Planner" },
+              worksFor: { "@type": "Organization", name: "Health Planner" },
               award: ["MDRT", "FChFP"],
               url: "https://www.heathplanner.com/",
               image: "/images/leader/portrait.jpg",

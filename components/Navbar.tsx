@@ -48,8 +48,8 @@ export default function Navbar() {
           {/* โลโก้ซ้าย */}
           <div className="flex min-w-[160px] items-center">
             <Link href={"/" as Route} className="flex items-center gap-2 whitespace-nowrap">
-              <Image src="/logo.svg" alt="HeathPlanner" width={26} height={26} />
-              <span className="font-semibold tracking-tight">Heath Planner</span>
+              <Image src="/logo.svg" alt="HealthPlanner" width={26} height={26} />
+              <span className="font-semibold tracking-tight">Health Planner</span>
             </Link>
           </div>
 

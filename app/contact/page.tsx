@@ -21,7 +21,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#E9EEF9] via-[#EFF2FA] to-transparent" />
         <div className="relative container max-w-6xl py-10 md:py-14 text-center">
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-[#325BBA]">
-            ติดต่อ Heath Planner
+            ติดต่อ Health Planner
           </h1>
           <p className="mt-3 text-gray-600">ส่งข้อมูล แล้วทีมจะติดต่อกลับโดยเร็ว</p>
         </div>
@@ -63,7 +63,7 @@ export default function ContactPage() {
                       rel="noreferrer"
                       className="font-semibold hover:underline"
                     >
-                      @heathplanner
+                      @Healthplanner
                     </a>
                   </div>
                 </li>
@@ -80,7 +80,7 @@ export default function ContactPage() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Heath Planner
+                      Health Planner
                     </a>
                   </div>
                 </li>
@@ -94,8 +94,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-800">อีเมล</div>
-                  <a className="hover:underline" href="mailto:contact@heathplanner.com">
-                    contact@heathplanner.com
+                  <a className="hover:underline" href="mailto:contact@Healthplanner.com">
+                    contact@Healthplanner.com
                   </a>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function ContactPage() {
                       className="mt-1 h-4 w-4 rounded border-gray-300 text-[#325BBA] focus:ring-[#325BBA]"
                     />
                     <p>
-                      ยินยอมให้ DragonSheild จัดเก็บและใช้ข้อมูลเพื่อการติดต่อกลับ
+                      ยินยอมให้ Health Planner จัดเก็บและใช้ข้อมูลเพื่อการติดต่อกลับ
                       ตามนโยบายความเป็นส่วนตัว
                     </p>
                   </div>

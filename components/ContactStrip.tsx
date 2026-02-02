@@ -47,7 +47,7 @@ export default function ContactStrip() {
             </IconPill>
             <span className="text-center sm:text-left">
               <div className="text-xs uppercase tracking-wide text-gray-500">LINE</div>
-              <div className="font-semibold text-gray-900 group-hover:text-primary">@heathplanner</div>
+              <div className="font-semibold text-gray-900 group-hover:text-primary">@Healthplanner</div>
             </span>
           </a>
 
@@ -63,7 +63,7 @@ export default function ContactStrip() {
             </IconPill>
             <span className="text-center sm:text-left">
               <div className="text-xs uppercase tracking-wide text-gray-500">Facebook</div>
-              <div className="font-semibold text-gray-900 group-hover:text-primary">Heath Planner</div>
+              <div className="font-semibold text-gray-900 group-hover:text-primary">Health Planner</div>
             </span>
           </a>
         </div>

@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: "ไม่พบแบบประกัน" };
 
   const title =
-    product.seoTitle || `${product.name} | HeathPlanner ประกันชีวิต/สุขภาพ`;
+    product.seoTitle || `${product.name} | HealthPlanner ประกันชีวิต/สุขภาพ`;
   const description =
     product.seoDescription ||
     product.summary ||
@@ -243,7 +243,7 @@ export default function ProductDetailPage({ params }: Props) {
               ติดต่อเพื่อขอใบเสนอราคา
             </a>
             <a
-              href="https://m.me/heathplanner"
+              href="https://m.me/Healthplanner"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center rounded-lg ring-1 ring-inset ring-white/60 px-5 py-2.5 font-semibold hover:bg-white/10"

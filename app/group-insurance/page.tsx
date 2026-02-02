@@ -42,7 +42,7 @@ export default function GroupInsurancePage() {
             <p className="mt-3 text-gray-700 leading-7">
               วางสวัสดิการที่ “คุ้มครองจริง ใช้งบคุ้มค่า” ครอบคลุมชีวิต อุบัติเหตุ
               ผู้ป่วยใน/ผู้ป่วยนอก และโรคร้ายแรง ปรับระดับสิทธิ์ตามตำแหน่ง-แผนกได้
-              Heath Planner ช่วยออกแบบแผนที่เหมาะกับงบขององค์กรคุณ
+              Health Planner ช่วยออกแบบแผนที่เหมาะกับงบขององค์กรคุณ
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
@@ -100,7 +100,7 @@ export default function GroupInsurancePage() {
           <li>กำหนดจำนวนพนักงานและงบประมาณรวมต่อปี/ต่อคน</li>
           <li>กำหนดโครงสร้างสิทธิ์ตามตำแหน่ง/ระดับ (Base + Special)</li>
           <li>เลือกความคุ้มครอง: ชีวิต/อุบัติเหตุ/IPD/OPD/โรคร้ายแรง ตามความจำเป็น</li>
-          <li>ส่งข้อมูลให้ Heath Planner เปรียบเทียบหลายบริษัทและเสนอแพ็กเกจ</li>
+          <li>ส่งข้อมูลให้ Health Planner เปรียบเทียบหลายบริษัทและเสนอแพ็กเกจ</li>
         </ol>
       </Section>
 
@@ -161,7 +161,7 @@ export default function GroupInsurancePage() {
               ติดต่อเพื่อขอใบเสนอราคา
             </a>
             <a
-              href="https://m.me/heathplanner"
+              href="https://m.me/Healthplanner"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center rounded-lg ring-1 ring-inset ring-white/60 px-5 py-2.5 font-semibold hover:bg-white/10"

@@ -19,7 +19,7 @@ export default function FloatingChat() {
     localStorage.setItem("ds_chat_open", open ? "1" : "0");
   }, [open]);
 
-  const fbLink = "https://m.me/dragonsheild";
+  const fbLink = "https://m.me/HealthPlanner";
   const lineLink = "https://lin.ee/";
   const telLink = "tel:0966956945";
 

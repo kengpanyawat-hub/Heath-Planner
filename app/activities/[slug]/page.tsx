@@ -9,9 +9,9 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: Props) {
-  const title = `รูปกิจกรรมทั้งหมด — ${params.slug} | Heath Planner`;
+  const title = `รูปกิจกรรมทั้งหมด — ${params.slug} | Health Planner`;
   const description =
-    "รวมภาพบรรยากาศกิจกรรม ทีมงาน และความสำเร็จร่วมกัน โดย Heath Planner";
+    "รวมภาพบรรยากาศกิจกรรม ทีมงาน และความสำเร็จร่วมกัน โดย Health Planner";
   return { title, description };
 }
 

@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "แผนผังเว็บไซต์ | Heath Planner",
+  title: "แผนผังเว็บไซต์ | Health Planner",
   description:
-    "แผนผังเว็บไซต์ Heath Planner เพื่อให้ง่ายต่อการค้นหาหน้าและเนื้อหาทั้งหมดในเว็บไซต์ของเรา",
+    "แผนผังเว็บไซต์ Health Planner เพื่อให้ง่ายต่อการค้นหาหน้าและเนื้อหาทั้งหมดในเว็บไซต์ของเรา",
 };
 
 export default function SitemapPage() {
@@ -16,7 +16,7 @@ export default function SitemapPage() {
       </h1>
 
       <p className="mb-6">
-        สำรวจทุกหน้าบนเว็บไซต์ Heath Planner ได้จากแผนผังด้านล่างนี้
+        สำรวจทุกหน้าบนเว็บไซต์ Health Planner ได้จากแผนผังด้านล่างนี้
         เพื่อให้คุณเข้าถึงข้อมูลได้สะดวกและรวดเร็ว
       </p>
 

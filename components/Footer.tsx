@@ -18,8 +18,8 @@ export default function Footer() {
           {/* brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2">
-              <Image src="/logo.svg" alt="DragonSheild" width={28} height={28} />
-              <span className="text-lg font-semibold">Heath Planner</span>
+              <Image src="/logo.svg" alt="HealthPlanner" width={28} height={28} />
+              <span className="text-lg font-semibold">Health Planner</span>
             </div>
             <p className="mt-3 max-w-md text-gray-600">
               ที่ปรึกษาประกันชีวิต/สุขภาพ เน้นแผนที่ใช่ในงบประมาณของคุณ
@@ -100,13 +100,13 @@ export default function Footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  @heathplanner
+                  @healthplanner
                 </a>
               </li>
               <li>
                 อีเมล:{" "}
-                <a className="hover:text-[#325BBA]" href="mailto:contact@dragonsheild.com">
-                  contact@heathplanner.com
+                <a className="hover:text-[#325BBA]" href="mailto:contact@Healthplanner.com">
+                  contact@healthplanner.com
                 </a>
               </li>
               <li>
@@ -123,7 +123,7 @@ export default function Footer() {
       <div className="border-t border-gray-200/70 bg-[#F7F8FB]">
         <div className="container max-w-7xl py-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between text-sm">
           <p className="text-gray-600">
-            © {year} Heath Planner. สงวนลิขสิทธิ์
+            © {year} Health Planner. สงวนลิขสิทธิ์
           </p>
           <ul className="flex flex-wrap items-center gap-x-6 gap-y-2 text-gray-600">
             <li>
