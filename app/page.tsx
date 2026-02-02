@@ -33,7 +33,7 @@ export default function Page() {
             </h1>
             <p className="mt-4 text-gray-600 max-w-xl">
               ชีวิต สุขภาพ อุบัติเหตุ ออม/บำนาญ และประกันกลุ่ม
-              เลือกแผนที่ใช่กับผู้เชี่ยวชาญ Heath Planner
+              เลือกแผนที่ใช่กับผู้เชี่ยวชาญ Health Planner
             </p>
             <div className="mt-6 flex gap-3">
               <Link href="/products" className="btn-primary">ดูแบบประกัน</Link>
@@ -41,7 +41,7 @@ export default function Page() {
             </div>
           </div>
           <div className="relative aspect-[4/3] md:aspect-[16/10] rounded-[32px] overflow-hidden ring-1 ring-gray-200/70">
-            <Image src="/hero/cover.jpg" alt="Heath Planner" fill className="object-cover"/>
+            <Image src="/hero/cover.jpg" alt="Health Planner" fill className="object-cover"/>
           </div>
         </div>
       </section>
@@ -68,7 +68,7 @@ export default function Page() {
             </div>
           </div>
           <div>
-            <h3 className="heading">Heath Planner — เราคือตัวแทนคุณภาพ</h3>
+            <h3 className="heading">Health Planner — เราคือตัวแทนคุณภาพ</h3>
             <p className="subheading">
               ตัวแทนประกันชีวิตคุณภาพจาก อลิอันซ์ อยุธยา รับความคุ้มครองชีวิต พร้อมออกแบบการออมในแบบของคุณ เลือกระยะเวลาและจำนวนเงินออมได้ตามต้องการ....
             </p>
