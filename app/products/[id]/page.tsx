@@ -115,7 +115,7 @@ export default function ProductDetailPage({ params }: Props) {
           <div>
             <div className="text-lg font-semibold">สนใจ {p.name}</div>
             <p className="text-white/85 text-sm">
-              ฝากข้อมูลให้ทีม Heath Planner แนะนำความคุ้มครองและประมาณเบี้ยตามงบของคุณ
+              ฝากข้อมูลให้ทีม Heatlh Planner แนะนำความคุ้มครองและประมาณเบี้ยตามงบของคุณ
             </p>
           </div>
           <div className="flex gap-3">
