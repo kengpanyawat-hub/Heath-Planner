@@ -80,7 +80,7 @@ export default function ContactPage() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Health Planner
+                      Health Planner - ที่ปรึกษาประกันชีวิต
                     </a>
                   </div>
                 </li>
