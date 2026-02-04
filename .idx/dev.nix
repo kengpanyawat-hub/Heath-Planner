@@ -1,19 +1,21 @@
-{pkgs}: {
+{ pkgs, ... }: {
   channel = "stable-24.05";
+
   packages = [
     pkgs.nodejs_20
+    pkgs.pnpm
   ];
-  idx.extensions = [
-    
-  ];
+
+  idx.extensions = [ ];
+
   idx.previews = {
+    enable = true;
     previews = {
       web = {
         command = [
           "pnpm"
           "run"
           "dev"
-          "--"
           "--port"
           "$PORT"
           "--hostname"

@@ -19,9 +19,9 @@ export default function LeaderHighlight() {
 
         {/* แถวรูป 3 ใบ */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-          <Figure src="/images/leader/MDRT/1.jpg" alt="รับรางวัล" />
-          <Figure src="/images/leader/MDRT/2.jpg" alt="รับรางวัล" />
-          <Figure src="/images/leader/MDRT/3.jpg" alt="รับรางวัล" />
+          <Figure src="/images/leader/1.jpg" alt="รับรางวัล" />
+          <Figure src="/images/leader/2.jpg" alt="รับรางวัล" />
+          <Figure src="/images/leader/3.jpg" alt="รับรางวัล" />
         </div>
 
         {/* เนื้อหา 1 */}
@@ -35,25 +35,24 @@ export default function LeaderHighlight() {
 
         {/* แถวรูป 3 ใบ */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-6">
-          <Figure src="/images/leader/MDRT/4.jpg" alt="เวทีกิจกรรมใหญ่" />
-          <Figure src="/images/leader/MDRT/5.jpg" alt="เวทีกิจกรรมใหญ่" />
-		  <Figure src="/images/leader/MDRT/6.jpg" alt="เวทีกิจกรรมใหญ่" />
+          <Figure src="/images/leader/4.jpg" alt="เวทีกิจกรรมใหญ่" />
+          <Figure src="/images/leader/5.jpg" alt="เวทีกิจกรรมใหญ่" />
+		      <Figure src="/images/leader/6.jpg" alt="เวทีกิจกรรมใหญ่" />
         </div>
 
-        {/* เนื้อหา 2 */}
+        {/* เนื้อหา 3 */}
 		<div className="text-center">
         <Paragraph>
           พาทีมงานผ่านเกณฑ์มาตรฐานระดับนานาชาติ MDRT หลายสมัย
-          พร้อมพัฒนาความรู้วิชาชีพอย่างต่อเนื่อง ทั้งหลักสูตรวางแผนการเงินและคุณวุฒิวิชาชีพ FChFP
-          ดูแลลูกค้ากว่า 1,000 ครอบครัว พร้อมแผนคุ้มครองและการวางแผนภาษีครบวงจร
+          พร้อมพัฒนาความรู้วิชาชีพอย่างต่อเนื่อง ดูแลลูกค้ากว่า 1,000 ครอบครัว พร้อมแผนคุ้มครองและการวางแผนภาษีครบวงจร
         </Paragraph>
 		</div>
 
-        {/* แถวรูป 2 ใบ */}
+        {/* แถวรูป 3 ใบ */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-6">
-          <Figure src="/images/leader/cer/1.jpg" alt="รับเกียรติบัตร" />
-          <Figure src="/images/leader/cer/2.jpg" alt="รับเกียรติบัตร" />
-		  <Figure src="/images/leader/cer/3.jpg" alt="รับเกียรติบัตร" />
+          <Figure src="/images/leader/7.jpg" alt="รับเกียรติบัตร" />
+          <Figure src="/images/leader/8.jpg" alt="รับเกียรติบัตร" />
+		      <Figure src="/images/leader/9.jpg" alt="รับเกียรติบัตร" />
         </div>
 
         {/* เนื้อหา 3 */}
@@ -64,6 +63,21 @@ export default function LeaderHighlight() {
           พร้อมยกระดับมาตรฐานบริการให้เป็นมืออาชีพในทุกขั้นตอน
         </Paragraph>
 		</div>
+        {/* แถวรูป 3 ใบ */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-6">
+          <Figure src="/images/leader/10.jpg" alt="รับเกียรติบัตร" />
+          <Figure src="/images/leader/11.jpg" alt="รับเกียรติบัตร" />
+		      <Figure src="/images/leader/12.jpg" alt="รับเกียรติบัตร" />
+        </div>
+
+        {/* เนื้อหา 3 */}
+		<div className="text-center">
+        <Paragraph>
+        ความสำเร็จในระดับ Professional Producer มาจากความใส่ใจในทุกเคส 
+        พร้อมผลลัพธ์การทำงานที่ชัดเจน ทั้งคุณภาพงาน บริการ และผลประโยชน์ที่ลูกค้าได้รับ
+        คือแรงผลักดันสำคัญของเรา
+        </Paragraph>
+		</div>
 
         {/* รางวัล/คุณวุฒิ */}
         <div className="mt-8">
@@ -72,14 +86,17 @@ export default function LeaderHighlight() {
           </h3>
           <ul className="mt-2 text-gray-700 list-disc pl-5 space-y-1">
             <li>คุณวุฒิ MDRT (Million Dollar Round Table)</li>
-            
             <li>รางวัลยอดขายและการบริหารทีมระดับองค์กรหลายสมัย</li>
+            <li>ตัวแทนระดับ Diamond</li>
+            <li>คุณวุฒิ APFinSa Awards</li>
+            <li>ผู้บริหาร SUPER ELITE</li>
           </ul>
 
           <div className="center mt-5 flex flex-wrap items-center gap-6">
             <Logo src="/images/logos/mdrt.avif" alt="MDRT" w={84} h={60} />
-            
             <Logo src="/images/logos/tnqa.avif" alt="TNOA" w={110} h={50} />
+            <Logo src="/images/logos/apfinsa.png" alt="apfinsa" w={120} h={100} />
+            <Logo src="/images/logos/allianz-elite.png" alt="allianz-elite" w={120} h={100} />
           </div>
         </div>
 
